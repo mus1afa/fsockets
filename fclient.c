@@ -15,7 +15,7 @@
 int main(int argc, char *argv[])
 {
 	char buff[1024] = "Hello from client\n", username[20], buff1[1024];
-	char message[1200] = "hi this message is from jash = ";
+	char message[1200] = "HI THIS IS SRAVANI FROM SAVARI = ";
 	int sockfd;
 	struct sockaddr_in addr;
 
@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 	memset(&addr, '0', sizeof(addr));
 
 	puts("manasa changed message[1200] to (hi this message is from manasa)");
+	puts("sravani updated a file");
 	strcpy(username, argv[2]);
 	puts("Enter the message to be sent to client");
 	fgets(buff1, 1000, stdin);
