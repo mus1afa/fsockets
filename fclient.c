@@ -27,6 +27,7 @@ int main(int argc, char *argv[])
 	memset(buff, '0', sizeof(buff));
 	memset(&addr, '0', sizeof(addr));
 
+	puts("manasa changed message[1200] to (hi this message is from manasa)");
 	strcpy(username, argv[2]);
 	puts("Enter the message to be sent to client");
 	fgets(buff1, 1000, stdin);
