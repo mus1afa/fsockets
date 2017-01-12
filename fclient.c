@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	sprintf(buff, "%s:%s %s", username, message, buff1);
 	strcpy(message, buff);
 	puts("Gautam edited the file");
-
+        puts("pallavi edited the file");
 	if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == 0)
 		HandleError("socket");
 
