@@ -15,7 +15,7 @@
 int main(int argc, char *argv[])
 {
 	char buff[1024] = "Hello from client\n", username[20], buff1[1024];
-	char message[1200] = "hi this is message from user1 = ";
+	char message[1200] = "hi this message is from manasa = ";
 	int sockfd;
 	struct sockaddr_in addr;
 
