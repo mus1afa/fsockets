@@ -15,7 +15,7 @@
 int main(int argc, char *argv[])
 {
 	char buff[1024] = "Hello from client\n", username[20], buff1[1024];
-	char message[1200] = "hi this message is from manasa = ";
+	char message[1200] = "hi this message is from jash = ";
 	int sockfd;
 	struct sockaddr_in addr;
 
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	sprintf(buff, "%s:%s %s", username, message, buff1);
 	strcpy(message, buff);
 	puts("Gautam edited the file");
-
+	puts("I have edited the file...jash");
 	if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == 0)
 		HandleError("socket");
 
